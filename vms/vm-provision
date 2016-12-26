@@ -1,0 +1,1 @@
+virt-install --name=blocknet --memory=4096 --vcpus=2 --location=/root/CentOS-7-x86_64-Minimal-1511.iso --network bridge=br0 --disk size=30 --graphics=none --os-type=linux --os-variant=rhel7 --extra-args=console=ttyS0

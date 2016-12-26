@@ -1,0 +1,40 @@
+#!/bin/bash
+
+for i in "$@"
+do
+case $i in
+  -n=*|--name=*)
+    NAME="${i#*=}"
+  ;;
+  -m=*|--memory=*)
+    MEMORY="${i#*=}"
+  ;;
+  -c=*|--cpus=*)
+    CPUS="${i#*=}"
+  ;;
+  -d=*|--disk=*)
+    DISK="${i#*=}"
+  ;;
+  *)
+    echo Invalid option entered or bad formatting.
+    exit $?
+  ;;
+esac
+done
+
+if [ -z "$NAME" ]; then
+  echo "Please enter a name for the VM (--name=)."
+fi
+if [ -z "$MEMORY" ]; then
+  echo "Please enter amount of RAM (--memory=)."
+fi
+if [ -z "$CPUS" ]; then
+  echo "Please enter number of virtual CPUs (--cpus=)."
+fi
+if [ -z "$DISK" ]; then
+  echo "Plese enter disk space available to VM (--disk=)."
+fi
+if (( $# < 4 )); then
+  exit $?
+fi
+virt-install --name=${NAME} --memory=${MEMORY} --vcpus=${CPUS} --location=/root/CentOS-7-x86_64-Minimal-1511.iso --network bridge=br0 --disk size=${DISK} --graphics=none --os-type=linux --os-variant=rhel7 --extra-args=console=ttyS0

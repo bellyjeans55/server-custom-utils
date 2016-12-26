@@ -1,0 +1,8 @@
+#!/bin/bash
+
+chown dockeruser /home/jokay/watch/*
+chgrp dockeruser /home/jokay/watch/*
+cp /home/jokay/watch/* /blockchain/torrents/watch
+
+COUNT=`ls -1 /home/jokay/watch | wc -l`
+echo "Added $COUNT items. Run blockchain-watch-clean to clear watch directory."

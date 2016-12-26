@@ -1,0 +1,1 @@
+/opt/MegaRAID/MegaCli/MegaCli64 -PDList-aALL | grep Temperature

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/opt/MegaRAID/MegaCli/MegaCli64 -AdpAllInfo -aALL -NoLog | grep "Degraded\|Failed Disks\|Critical"

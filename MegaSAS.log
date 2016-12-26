@@ -1,0 +1,4009 @@
+Adapter #0
+
+==============================================================================
+                    Versions
+                ================
+Product Name    : LSI MegaRAID SAS 9260-8i
+Serial No       : SV23725033
+FW Package Build: 12.15.0-0189
+
+                    Mfg. Data
+                ================
+Mfg. Date       : 09/15/12
+Rework Date     : 00/00/00
+Revision No     : 85B
+Battery FRU     : N/A
+
+                Image Versions in Flash:
+                ================
+FW Version         : 2.130.403-3066
+BIOS Version       : 3.30.02.0_4.16.08.00_0x06060900
+Preboot CLI Version: 04.04-020:#%00009
+WebBIOS Version    : 6.0-52-e_48-Rel
+NVDATA Version     : 2.09.03-0049
+Boot Block Version : 2.02.00.00-0000
+BOOT Version       : 09.250.01.219
+
+                Pending Images in Flash
+                ================
+None
+
+                PCI Info
+                ================
+Controller Id	: 0000
+Vendor Id       : 1000
+Device Id       : 0079
+SubVendorId     : 1000
+SubDeviceId     : 9261
+
+Host Interface  : PCIE
+
+ChipRevision    : B4
+
+Link Speed 	     : 0 
+Number of Frontend Port: 0 
+Device Interface  : PCIE
+
+Number of Backend Port: 8 
+Port  :  Address
+0        4433221100000000 
+1        4433221101000000 
+2        4433221103000000 
+3        4433221102000000 
+4        4433221104000000 
+5        4433221105000000 
+6        4433221106000000 
+7        4433221107000000 
+
+                HW Configuration
+                ================
+SAS Address      : 500605b00574d1c0
+BBU              : Present
+Alarm            : Present
+NVRAM            : Present
+Serial Debugger  : Present
+Memory           : Present
+Flash            : Present
+Memory Size      : 512MB
+TPM              : Absent
+On board Expander: Absent
+Upgrade Key      : Absent
+Temperature sensor for ROC    : Absent
+Temperature sensor for controller    : Absent
+
+
+                Settings
+                ================
+Current Time                     : 13:23:21 11/16, 2016
+Predictive Fail Poll Interval    : 300sec
+Interrupt Throttle Active Count  : 16
+Interrupt Throttle Completion    : 50us
+Rebuild Rate                     : 30%
+PR Rate                          : 30%
+BGI Rate                         : 30%
+Check Consistency Rate           : 30%
+Reconstruction Rate              : 30%
+Cache Flush Interval             : 4s
+Max Drives to Spinup at One Time : 4
+Delay Among Spinup Groups        : 2s
+Physical Drive Coercion Mode     : Disabled
+Cluster Mode                     : Disabled
+Alarm                            : Enabled
+Auto Rebuild                     : Enabled
+Battery Warning                  : Enabled
+Ecc Bucket Size                  : 15
+Ecc Bucket Leak Rate             : 1440 Minutes
+Restore HotSpare on Insertion    : Disabled
+Expose Enclosure Devices         : Enabled
+Maintain PD Fail History         : Enabled
+Host Request Reordering          : Enabled
+Auto Detect BackPlane Enabled    : SGPIO/i2c SEP
+Load Balance Mode                : Auto
+Use FDE Only                     : No
+Security Key Assigned            : No
+Security Key Failed              : No
+Security Key Not Backedup        : No
+Default LD PowerSave Policy      : Controller Defined
+Maximum number of direct attached drives to spin up in 1 min : 120 
+Auto Enhanced Import             : Yes
+Any Offline VD Cache Preserved   : No
+Allow Boot with Preserved Cache  : No
+Disable Online Controller Reset  : No
+PFK in NVRAM                     : No
+Use disk activity for locate     : No
+POST delay			 : 90 seconds
+BIOS Error Handling          	 : Stop On Errors
+Current Boot Mode 		  :Normal
+                Capabilities
+                ================
+RAID Level Supported             : RAID0, RAID1, RAID5, RAID6, RAID00, RAID10, RAID50, RAID60, PRL 11, PRL 11 with spanning, SRL 3 supported, PRL11-RLQ0 DDF layout with no span, PRL11-RLQ0 DDF layout with span
+Supported Drives                 : SAS, SATA
+
+Allowed Mixing:
+
+Mix in Enclosure Allowed
+Mix of SAS/SATA of HDD type in VD Allowed
+Mix of SAS/SATA of SSD type in VD Allowed
+Mix of SSD/HDD in VD Allowed
+
+                Status
+                ================
+ECC Bucket Count                 : 0
+
+                Limitations
+                ================
+Max Arms Per VD          : 32 
+Max Spans Per VD         : 8 
+Max Arrays               : 128 
+Max Number of VDs        : 64 
+Max Parallel Commands    : 1008 
+Max SGE Count            : 80 
+Max Data Transfer Size   : 8192 sectors 
+Max Strips PerIO         : 42 
+Max LD per array         : 16 
+Min Strip Size           : 8 KB
+Max Strip Size           : 1.0 MB
+Max Configurable CacheCade Size: 0 GB
+Current Size of CacheCade      : 0 GB
+Current Size of FW Cache       : 350 MB
+
+                Device Present
+                ================
+Virtual Drives    : 1 
+  Degraded        : 0 
+  Offline         : 0 
+Physical Devices  : 9 
+  Disks           : 8 
+  Critical Disks  : 0 
+  Failed Disks    : 0 
+
+                Supported Adapter Operations
+                ================
+Rebuild Rate                    : Yes
+CC Rate                         : Yes
+BGI Rate                        : Yes
+Reconstruct Rate                : Yes
+Patrol Read Rate                : Yes
+Alarm Control                   : Yes
+Cluster Support                 : No
+BBU                             : Yes
+Spanning                        : Yes
+Dedicated Hot Spare             : Yes
+Revertible Hot Spares           : Yes
+Foreign Config Import           : Yes
+Self Diagnostic                 : Yes
+Allow Mixed Redundancy on Array : No
+Global Hot Spares               : Yes
+Deny SCSI Passthrough           : No
+Deny SMP Passthrough            : No
+Deny STP Passthrough            : No
+Support Security                : No
+Snapshot Enabled                : No
+Support the OCE without adding drives : Yes
+Support PFK                     : Yes
+Support PI                      : No
+Support Boot Time PFK Change    : No
+Disable Online PFK Change       : No
+PFK TrailTime Remaining         : 0 days 0 hours
+Support Shield State            : No
+Block SSD Write Disk Cache Change: No
+Support Online FW Update	: Yes
+
+                Supported VD Operations
+                ================
+Read Policy          : Yes
+Write Policy         : Yes
+IO Policy            : Yes
+Access Policy        : Yes
+Disk Cache Policy    : Yes
+Reconstruction       : Yes
+Deny Locate          : No
+Deny CC              : No
+Allow Ctrl Encryption: No
+Enable LDBBM         : Yes
+Support Breakmirror  : No
+Power Savings        : No
+
+                Supported PD Operations
+                ================
+Force Online                            : Yes
+Force Offline                           : Yes
+Force Rebuild                           : Yes
+Deny Force Failed                       : No
+Deny Force Good/Bad                     : No
+Deny Missing Replace                    : No
+Deny Clear                              : No
+Deny Locate                             : No
+Support Temperature                     : Yes
+NCQ                                     : No
+Disable Copyback                        : No
+Enable JBOD                             : No
+Enable Copyback on SMART                : No
+Enable Copyback to SSD on SMART Error   : Yes
+Enable SSD Patrol Read                  : No
+PR Correct Unconfigured Areas           : Yes
+Enable Spin Down of UnConfigured Drives : Yes
+Disable Spin Down of hot spares         : No
+Spin Down time                          : 30 
+T10 Power State                         : No
+                Error Counters
+                ================
+Memory Correctable Errors   : 0 
+Memory Uncorrectable Errors : 0 
+
+                Cluster Information
+                ================
+Cluster Permitted     : No
+Cluster Active        : No
+
+                Default Settings
+                ================
+Phy Polarity                     : 0 
+Phy PolaritySplit                : 0 
+Background Rate                  : 30 
+Strip Size                       : 256kB
+Flush Time                       : 4 seconds
+Write Policy                     : WB
+Read Policy                      : RA
+Cache When BBU Bad               : Disabled
+Cached IO                        : No
+SMART Mode                       : Mode 6
+Alarm Disable                    : Yes
+Coercion Mode                    : None
+ZCR Config                       : Unknown
+Dirty LED Shows Drive Activity   : No
+BIOS Continue on Error           : 3 
+Spin Down Mode                   : None
+Allowed Device Type              : SAS/SATA Mix
+Allow Mix in Enclosure           : Yes
+Allow HDD SAS/SATA Mix in VD     : Yes
+Allow SSD SAS/SATA Mix in VD     : Yes
+Allow HDD/SSD Mix in VD          : Yes
+Allow SATA in Cluster            : No
+Max Chained Enclosures           : 16 
+Disable Ctrl-R                   : Yes
+Enable Web BIOS                  : Yes
+Direct PD Mapping                : No
+BIOS Enumerate VDs               : Yes
+Restore Hot Spare on Insertion   : No
+Expose Enclosure Devices         : Yes
+Maintain PD Fail History         : Yes
+Disable Puncturing               : No
+Zero Based Enclosure Enumeration : No
+PreBoot CLI Enabled              : Yes
+LED Show Drive Activity          : Yes
+Cluster Disable                  : Yes
+SAS Disable                      : No
+Auto Detect BackPlane Enable     : SGPIO/i2c SEP
+Use FDE Only                     : No
+Enable Led Header                : Yes
+Delay during POST                : 0 
+EnableCrashDump                  : No
+Disable Online Controller Reset  : No
+EnableLDBBM                      : Yes
+Un-Certified Hard Disk Drives    : Allow
+Treat Single span R1E as R10     : No
+Max LD per array                 : 16
+Power Saving option              : Don't Auto spin down Configured Drives
+Max power savings option is  not allowed for LDs. Only T10 power conditions are to be used.
+Default spin down time in minutes: 30 
+Enable JBOD                      : No
+TTY Log In Flash                 : No
+Auto Enhanced Import             : Yes
+BreakMirror RAID Support         : Yes
+Disable Join Mirror              : No
+Enable Shield State              : No
+Time taken to detect CME         : 60s
+
+Exit Code: 0x00
+
+Adapter 0 -- Virtual Drive Information:
+Virtual Drive: 0 (Target Id: 0)
+Name                :
+RAID Level          : Primary-6, Secondary-0, RAID Level Qualifier-3
+Size                : 21.829 TB
+Sector Size         : 512
+Is VD emulated      : Yes
+Parity Size         : 7.276 TB
+State               : Optimal
+Strip Size          : 256 KB
+Number Of Drives    : 8
+Span Depth          : 1
+Default Cache Policy: WriteBack, ReadAhead, Direct, No Write Cache if Bad BBU
+Current Cache Policy: WriteBack, ReadAhead, Direct, No Write Cache if Bad BBU
+Default Access Policy: Read/Write
+Current Access Policy: Read/Write
+Disk Cache Policy   : Disk's Default
+Encryption Type     : None
+Bad Blocks Exist: No
+Is VD Cached: No
+
+
+
+Exit Code: 0x00
+
+Adapter 0 -- Virtual Drive Information:
+Virtual Drive: 0 (Target Id: 0)
+Name                :
+RAID Level          : Primary-6, Secondary-0, RAID Level Qualifier-3
+Size                : 21.829 TB
+Sector Size         : 512
+Is VD emulated      : Yes
+Parity Size         : 7.276 TB
+State               : Optimal
+Strip Size          : 256 KB
+Number Of Drives    : 8
+Span Depth          : 1
+Default Cache Policy: WriteBack, ReadAhead, Direct, No Write Cache if Bad BBU
+Current Cache Policy: WriteBack, ReadAhead, Direct, No Write Cache if Bad BBU
+Default Access Policy: Read/Write
+Current Access Policy: Read/Write
+Disk Cache Policy   : Disk's Default
+Encryption Type     : None
+Bad Blocks Exist: No
+Is VD Cached: No
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+
+Adapter 0 -- Virtual Drive Information:
+Virtual Drive: 0 (Target Id: 0)
+Name                :
+RAID Level          : Primary-6, Secondary-0, RAID Level Qualifier-3
+Size                : 21.829 TB
+Sector Size         : 512
+Is VD emulated      : Yes
+Parity Size         : 7.276 TB
+State               : Optimal
+Strip Size          : 256 KB
+Number Of Drives    : 8
+Span Depth          : 1
+Default Cache Policy: WriteBack, ReadAhead, Direct, No Write Cache if Bad BBU
+Current Cache Policy: WriteBack, ReadAhead, Direct, No Write Cache if Bad BBU
+Default Access Policy: Read/Write
+Current Access Policy: Read/Write
+Disk Cache Policy   : Disk's Default
+Encryption Type     : None
+Bad Blocks Exist: No
+Is VD Cached: No
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :37C (98.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :33C (91.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :41C (105.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :43C (109.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :39C (102.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :35C (95.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :43C (109.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :47C (116.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :47C (116.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 252
+Slot Number: 0
+Drive's position: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: N/A
+Device Id: 11
+WWN: 5000cca22ec31830
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221103000000
+Connected Port Number: 2(path0) 
+Inquiry Data:       PL2331LAG6U0YJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 1
+Drive's position: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: N/A
+Device Id: 9
+WWN: 5000cca22ec56345
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221102000000
+Connected Port Number: 3(path0) 
+Inquiry Data:       PL1331LAGBVE3HHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 2
+Drive's position: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: N/A
+Device Id: 10
+WWN: 5000c50080c3b73a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221101000000
+Connected Port Number: 1(path0) 
+Inquiry Data:             S301GGM9ST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 3
+Drive's position: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: N/A
+Device Id: 8
+WWN: 5000c500906e6abb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: CC54
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221100000000
+Connected Port Number: 0(path0) 
+Inquiry Data:             W3016PSCST4000DM000-1F2168                      CC54    
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 4
+Drive's position: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: N/A
+Device Id: 12
+WWN: 5000cca22ec56599
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221104000000
+Connected Port Number: 4(path0) 
+Inquiry Data:       PL1331LAGBW1AHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 5
+Drive's position: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: N/A
+Device Id: 13
+WWN: 5000cca22ec506ab
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221105000000
+Connected Port Number: 5(path0) 
+Inquiry Data:       PL2331LAGB1SDJHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 6
+Drive's position: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: N/A
+Device Id: 17
+WWN: 5000cca22ec56293
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221106000000
+Connected Port Number: 6(path0) 
+Inquiry Data:       PL1331LAGBV7BHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 252
+Slot Number: 7
+Drive's position: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: N/A
+Device Id: 16
+WWN: 5000cca22ec5635e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Sector Size:  0
+Logical Sector Size:  0
+Physical Sector Size:  0
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Emergency Spare : No
+Device Firmware Level: A3W0
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x4433221107000000
+Connected Port Number: 7(path0) 
+Inquiry Data:       PL1331LAGBVEXHHGST HMS5C4040ALE640                    MPAOA3W0
+FDE Capable: Not Capable
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive:  Not Certified
+Drive Temperature :44C (111.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's NCQ setting : N/A
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
