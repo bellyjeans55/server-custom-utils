@@ -1,0 +1,22 @@
+#!/bin/bash
+LOCK=/tmp/tlock
+
+# If an alert has been sent, don't keep sending.
+if [ -f $LOCK ]; then
+  exit 6
+fi
+
+touch $LOCK
+
+TEMPS=`ipmitool sdr list | grep "CPU. Temp" | grep -o "[0-9][0-9]"`
+TEMP1="$(echo $TEMPS | cut -d' ' -f1)"
+TEMP2="$(echo $TEMPS | cut -d' ' -f2)"
+
+# If overheating, alert and leave the lock behind.
+if [[ $TEMP1 > 78 ]] || [[ $TEMP2 > 78 ]]; then
+  echo "One or more CPUs in $(hostname -f) are in danger of overheating. Begin safe shutdown as soon as possible." | mail -s "Temperature Alert" $EMAIL_ADDR
+  exit 0
+fi
+
+# If all is well, remove the lock for the next check.
+rm $LOCK

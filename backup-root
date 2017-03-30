@@ -1,0 +1,7 @@
+echo "Backup started: $(date)" >> /var/log/backups
+lvcreate -L 1G -n backup-root -s /dev/centos/root >> /var/log/backups
+mount /dev/centos/backup-root /snapshots/root -onouuid,ro >> /var/log/backups
+mv /storage/backups/root.tar.gz /storage/backups/root.tar.gz.prev
+tar -pczf /storage/backups/root.tar.gz /snapshots/root >> /var/log/backups
+umount /snapshots/root >> /var/log/backups
+lvremove -f /dev/centos/backup-root >> /var/log/backups

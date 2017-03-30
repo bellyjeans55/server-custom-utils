@@ -1,0 +1,7 @@
+echo "/home backup started: $(date)" >> /var/log/backups
+lvcreate -L 1G -n backup-home -s /dev/centos/home >> /var/log/backups
+mount /dev/centos/backup-home /snapshots/home -onouuid,ro >> /var/log/backups
+mv /storage/backups/home.tar.gz /storage/backups/home.tar.gz.prev
+tar -pczf /storage/backups/home.tar.gz /snapshots/home >> /var/log/backups
+umount /snapshots/home >> /var/log/backups
+lvremove -f /dev/centos/backup-home >> /var/log/backups
